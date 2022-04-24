@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  font-family: inherit;
+  box-sizing: border-box;
+}
+html,
+body,
+div  {
+  height: 100%;
+  padding: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+
+}
+
+body {
+  background-image: url("images/starwars-background-img.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat, repeat;
+
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+nav {
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+nav li a {
+  transition: all 0.3s ease 0s;
+}
+nav li a:hover {
+  color: hotpink;
+}
+#luke_home p {
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  text-decoration: underline hotpink;
+}
+
+#luke_home p:hover {
+  color: hotpink;
+}
+
+h2 {
+  font-size: 4em;
+  color: aliceblue;
+  padding: 20px;
+}
+h1 {
+  color: fuchsia;
+  font-size: 5em;
+  text-align: center;
+}
+
+p {
+  color: aliceblue;
+  font-size: 3em;
+}
+#planets_list{
+  color: aliceblue;
+  font-size: 3em;
+}
+
+#luke_info {
+  text-align: left;
+  font-size: 3em;
+  color: fuchsia;
+}
+
+
+#planets_list{
+    color: white;
+    cursor: pointer;
+    text-decoration: underline hotpink;
+}
